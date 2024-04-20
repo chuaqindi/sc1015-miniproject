@@ -19,28 +19,23 @@ Telco businesses are thus seeking to develop models to predict which customers a
 
 
 ## Models/ Libraries used
--Classification Tree
--Random Forest
--Logistic Regression
--XGBoost
--LightGBM
+- Classification Tree
+- Random Forest
+- Logistic Regression
+- XGBoost
+- LightGBM
 
 ## Data Preparation
 
-Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets
+Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets <br>
 Our dataset does not contain missing values. 
-However, we did notice that there was an inbalance in classes of the churn data. 
-Hence, we use SMOTE.
-OneHotEncoding & change bool/ categorical data to int64
+<br>However, we did notice that there was an inbalance in classes of the churn data. Hence, we use SMOTE.
+<br> OneHotEncoding & change bool/ categorical data to int64
 
 
 ## Machine Learning
 
--Classification Tree
--Random Forest
--Logistic Regression
--XGBoost
--LightGBM
+
 
 ## Conclusion
 
