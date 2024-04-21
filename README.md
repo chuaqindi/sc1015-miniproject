@@ -4,16 +4,18 @@
 ## About 
 This is a Mini-Project for the SC1015 (Introduction to Data Science and Artificial Intelligence) module in Nanyang Technological University (NTU).
 
-Our group aims to utilise customer data from Telcos to analyse the factors that affect churn.
+Our group aims to utilise customer data from Telcos to analyse the factors that affect churn and provide recommendations to reduce churn rate.
+
+
+## Contributors
 
 
 ## Problem Definition 
 
-In the highly competitive telecommunications industry, customer churn is a critical challenge for telecomunication companies (Telco). Customer churn (or customer attrition) refers to the loss of customers due to dissatisfaction of the services provided and/or due to better offers 
-from other companies. 
-
-Churn results in a loss of revenue of the company and it has become increasingly difficult to retain customers today.
-
+In the highly competitive telecommunications industry, customer churn is a critical challenge for telecomunication companies (Telco). <br>
+Customer churn (or customer attrition) refers to the loss of customers due to dissatisfaction of the services provided and/or due to better offers 
+from other companies. <br>
+Churn results in a loss of revenue of the company and it has become increasingly difficult to retain customers today. <br>
 Telco businesses are thus seeking to develop models to predict which customers are more likely to leave soon and take actions accordingly.
 
 
@@ -25,22 +27,30 @@ Telco businesses are thus seeking to develop models to predict which customers a
 - XGBoost
 - LightGBM
 
+
+## Exploratory Data Analysis (EDA)
+Methods used: 
+// link to ipynb
+
 ## Data Preparation
 
 Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets <br>
-Our dataset does not contain missing values. 
-<br>However, we did notice that there was an inbalance in classes of the churn data. Hence, we use SMOTE.
-<br> OneHotEncoding & change bool/ categorical data to int64
+
+In this section, we prepared the dataset to be trained more accurately by our machine learning models.
+
+- The dataset does not contain missing or NaN values
+- However, we did notice that there was an inbalance in classes of the churn data. Hence, we use Synthetic Minority Oversampling Technique (SMOTE) to generate more 'False' values in our Churn data
+- OneHotEncoding library was used to convert categorical data (in String format) to Integers
 
 
 ## Machine Learning
+// link to ipynb
 
 
-
-## Conclusion
+## Conclusion / Recommendations
 
 ## What we have learnt from this project 
-- Methods to visualise and interpret datasets
+- Methods to visualise and interpret data
 - Upsampling data to increase prediction accuracy of model.
 - New Machine Learning models: Logistic Regression, XGBoost, LightGBM
 - Drawing conclusions from data and relating it to real-world issues
@@ -49,4 +59,6 @@ Our dataset does not contain missing values.
 ## Contributions
 
 ## References
+https://www.kaggle.com/code/mnassrib/customer-churn-prediction-telecom-churn-dataset
+https://www.datacamp.com/tutorial/understanding-logistic-regression-python
 
