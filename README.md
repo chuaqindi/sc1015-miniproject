@@ -21,7 +21,7 @@ Thus, Telco businesses are seeking to develop models to predict and reduce churn
 
 
 ## Models/ Libraries used
-
+- Scipy
 - PhiK
 - GraphViz
 - Imblearn
@@ -37,9 +37,17 @@ Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datas
 
 #### [EDA](https://github.com/chuaqindi/sc1015-miniproject/blob/main/EDA.ipynb)
 
+Our target variable, `Churn` is a boolean type variable. Hence, we used the following methods to carry out our EDA:
+
+Feature importances:
+- Boxplots of Numerical data against Churn
+- Countplot of Categorical data against Churn
+
+Correlation:
+-Point biserial correlation (for Numerical Data)
+-Phi k (𝜙k) correlation coefficent (for Categorical Data)
+
 ## Data Preparation
-
-
 
 In this section, we prepared the dataset to be trained more accurately by our machine learning models.
 
