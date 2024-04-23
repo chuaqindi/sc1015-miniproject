@@ -21,6 +21,8 @@ Telco businesses are thus seeking to develop models to predict which customers a
 
 
 ## Models/ Libraries used
+- PhiK
+- GraphViz
 - Classification Tree
 - Random Forest
 - Logistic Regression
@@ -30,7 +32,7 @@ Telco businesses are thus seeking to develop models to predict which customers a
 
 ## Exploratory Data Analysis (EDA)
 Methods used: 
-// link to ipynb
+link to ipynb
 
 ## Data Preparation
 
@@ -44,10 +46,16 @@ In this section, we prepared the dataset to be trained more accurately by our ma
 
 
 ## Machine Learning
-// link to ipynb
+### [Models (compiled)](https://github.com/chuaqindi/sc1015-miniproject/blob/main/All%20models.ipynb)
+
+// individual models 
 
 
 ## Conclusion / Recommendations
+ 
+XGBoost was the best machine learning model to classify our variables. The top 5 important features / variables given XGBoost are: "Total day minutes", "Total eve minutes", "Account Length", "Total intl minutes" and "Total night minutes".
+
+From this we can conclude that,...
 
 ## What we have learnt from this project 
 - Methods to visualise and interpret data
