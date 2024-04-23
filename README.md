@@ -12,13 +12,11 @@ Our group aims to utilise customer data from Telcos to analyse the factors that 
 
 ## Problem Definition 
 
-In the highly competitive telecommunications industry, customer churn is a critical challenge for telecomunication companies (Telco). 
+Customer churn refers to customers that stopped using a company'services during a certain time frame. Churn analysis allows businesses to identify potential issues and take proactive measures to retain customers.
 
-Customer churn (or customer attrition) refers to the loss of customers due to dissatisfaction of the services provided and/or due to better offers 
-from other companies. 
+In the highly competitive telecommunications industry, customer churn is a critical challenge for telco businesses. It is roughly 6-7 times more expensive to acquire a new customer than it is to keep a current customer. Thus, even if the company gains a customer for every customer lost, they are still losing money. 
 
-Churn results in a loss of revenue of the company and it has become increasingly difficult to retain customers today. <br>
-Telco businesses are thus seeking to develop models to predict which customers are more likely to leave soon and take actions accordingly.
+Thus, Telco businesses are seeking to develop models to predict and reduce churn, allowing the business optimize customer retention strategies and cultivate a stronger customer base.
 
 
 
@@ -35,11 +33,13 @@ Telco businesses are thus seeking to develop models to predict which customers a
 
 
 ## Exploratory Data Analysis (EDA)
+Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets <br>
+
 #### [EDA](https://github.com/chuaqindi/sc1015-miniproject/blob/main/EDA.ipynb)
 
 ## Data Preparation
 
-Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets <br>
+
 
 In this section, we prepared the dataset to be trained more accurately by our machine learning models.
 
@@ -69,8 +69,10 @@ Telco companies can look into the other factors. ...
 
 
 ## References
+https://www.pecan.ai/blog/how-why-churn-analysis-prediction/#why-analyze-customer-churn
 https://www.kaggle.com/code/mnassrib/customer-churn-prediction-telecom-churn-dataset
 https://www.kaggle.com/code/visionary20/orange-telecom-prevention-and-predicting-churn
 https://www.datacamp.com/tutorial/understanding-logistic-regression-python
 https://www.datacamp.com/tutorial/xgboost-in-python
+https://phik.readthedocs.io/en/latest/
 
