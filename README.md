@@ -61,7 +61,7 @@ In this section, we prepared the dataset to be trained more accurately by our ma
 ### 1. [View Logistic Regression, XGBoost, LightGBM ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/ClassificationTree_RandomForest.ipynb) <br> 2. [View Classification Tree & Random Forest ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/LogReg_XGBoost_LightGBM.ipynb) 
 
 
-|                                    | Accuracy | ROC AUC | Precision | Recall | F1-Score |
+|      Performance Measure                    | Accuracy | ROC AUC | Precision | Recall | F1-Score |
 | ------                             | ------ | ------ | ------ | ------ | ------ |
 | XGBoost                            | 0.990 | 0.981 | 0.987 | 0.946 | 0.966 |
 | LightGBM                           | 0.989 | 0.984 | 0.984 | 0.938 | 0.960 |
