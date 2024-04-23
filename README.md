@@ -67,9 +67,10 @@ Telco companies can look into the other factors. ...
 - Drawing conclusions from data and relating it to real-world issues
 - Collaborating on GitHub
 
-## Contributions
 
 ## References
 https://www.kaggle.com/code/mnassrib/customer-churn-prediction-telecom-churn-dataset
+https://www.kaggle.com/code/visionary20/orange-telecom-prevention-and-predicting-churn
 https://www.datacamp.com/tutorial/understanding-logistic-regression-python
+https://www.datacamp.com/tutorial/xgboost-in-python
 
