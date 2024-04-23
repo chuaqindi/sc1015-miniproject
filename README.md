@@ -42,7 +42,7 @@ Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datas
 In this section, we prepared the dataset to be trained more accurately by our machine learning models.
 
 - The dataset does not contain missing or NaN values
-- However, we did notice that there was an inbalance in classes of the churn data. Hence, we use Synthetic Minority Oversampling Technique (SMOTE) to generate more 'False' values in our Churn data
+- However, we did notice that there was an inbalance in classes of the churn data. Hence, we use Synthetic Minority Oversampling Technique (SMOTE) to generate more 'False' values in our Churn data 
 - OneHotEncoding library was used to convert categorical data (in String format) to Integers
 
 
