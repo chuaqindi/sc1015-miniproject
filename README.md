@@ -35,7 +35,7 @@ Telco businesses are thus seeking to develop models to predict which customers a
 
 
 ## Exploratory Data Analysis (EDA)
-#### [Combined Ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/All%20models.ipynb)
+#### [EDA](https://github.com/chuaqindi/sc1015-miniproject/blob/main/EDA.ipynb)
 
 ## Data Preparation
 
