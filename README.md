@@ -62,13 +62,13 @@ In this section, we prepared the dataset to be trained more accurately by our ma
 
 
 |                                    | Accuracy | ROC AUC | Precision | Recall | F1-Score |
-| ---                                | ---      | ---     | ---       | ---    | ---      |
-| XGBoost                            | 0.990    | 0.981   | 0.987     | 0.946  | 0.966    |
-| LightGBM                           | 0.989    | 0.984   | 0.984     | 0.938  | 0.960    |
-| Random Forest                      | 0.985	| 0.989   | 0.975     | 0.918  | 0.946    |
-| Random Forest with Hyperparameters | 0.985    | 0.989   | 0.978     | 0.918  | 0.947    |
-| Classification Tree                | 0.980    | 0.962   | 0.931     | 0.936  | 0.933    |
-| Logistic Regression                | 0.792    | 0.836	  | 0.388     | 0.747  | 0.511    |
+| ------                             | ------ | ------ | ------ | ------ | ------ |
+| XGBoost                            | 0.990 | 0.981 | 0.987 | 0.946 | 0.966 |
+| LightGBM                           | 0.989 | 0.984 | 0.984 | 0.938 | 0.960 |
+| Random Forest                      | 0.985 | 0.989 | 0.975 | 0.918 | 0.946 |
+| Random Forest with Hyperparameters | 0.985 | 0.989 | 0.978 | 0.918 | 0.947 |
+| Classification Tree                | 0.980 | 0.962 | 0.931 | 0.936 | 0.933 |
+| Logistic Regression                | 0.792 | 0.836 | 0.388 | 0.747 | 0.511 |
 
 ## Conclusion / Recommendations
  
