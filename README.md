@@ -22,7 +22,8 @@ Telco businesses are thus seeking to develop models to predict which customers a
 
 
 
-## Models/ Libraries used (Disclaimer: Ipynb will not run properly without these dependencies installed)
+## Models/ Libraries used
+
 - PhiK
 - GraphViz
 - Imblearn
