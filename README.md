@@ -54,10 +54,14 @@ In this section, we prepared the dataset to be trained more accurately by our ma
 
 ## Conclusion / Recommendations
  
-XGBoost was the best machine learning model to classify our variables. The top 5 important features / variables given XGBoost are: "Total day minutes", "Total eve minutes", "Account Length", "Total intl minutes" and "Total night minutes".
+XGBoost is the best machine learning model to classify our variables. 
 
-In general,as customers use more of the telco services, they are more likely to discontinue the services. 
-Telco companies can look into the other factors. ...
+The most important features were `Total day minutes`, `Total eve minutes`, `Total intl minutes` & `Account Length`.
+
+
+In general,as customers use more of the telco services, they are more likely to discontinue the services. This suggests that telco businesses will have to look into long-term customer satisfaction and loyalty. 
+
+The feature importances provides some insights into how telco businesses can improve their services. Firstly, telcos can look into improving the stability of the communication channels during day and evening timings, where it is expected to have higher traffic of customers. Next, they can look into retaining customers who make frequent international calls by improving the communication channels or by coming up with more enticing international plans.
 
 
 ## What we have learnt from this project 
