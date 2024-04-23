@@ -2,8 +2,7 @@
 
 
 ## About 
-This is a Mini-Project for the SC1015 (Introduction to Data Science and Artificial Intelligence) module in Nanyang Technological University (NTU).
-
+This is a Mini-Project for the SC1015 (Introduction to Data Science and Artificial Intelligence) module in Nanyang Technological University (NTU).<br>
 Our group aims to utilise customer data from Telcos to analyse the factors that affect churn and provide recommendations to reduce churn rate.
 
 
@@ -32,8 +31,7 @@ Telco businesses are thus seeking to develop models to predict which customers a
 
 
 ## Exploratory Data Analysis (EDA)
-Methods used: 
-link to ipynb
+#### [Combined Ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/All%20models.ipynb)
 
 ## Data Preparation
 
@@ -47,9 +45,7 @@ In this section, we prepared the dataset to be trained more accurately by our ma
 
 
 ## Machine Learning
-### [Models (compiled)](https://github.com/chuaqindi/sc1015-miniproject/blob/main/All%20models.ipynb)
-
-// individual models 
+#### 1. [Logistic Regression, XGBoost, LightGBM](https://github.com/chuaqindi/sc1015-miniproject/blob/main/ClassificationTree_RandomForest.ipynb) <br> 2. [Classification Tree & Random Forest](https://github.com/chuaqindi/sc1015-miniproject/blob/main/LogReg_XGBoost_LightGBM.ipynb) 
 
 
 ## Conclusion / Recommendations
