@@ -55,7 +55,9 @@ In this section, we prepared the dataset to be trained more accurately by our ma
  
 XGBoost was the best machine learning model to classify our variables. The top 5 important features / variables given XGBoost are: "Total day minutes", "Total eve minutes", "Account Length", "Total intl minutes" and "Total night minutes".
 
-From this we can conclude that,...
+In general,as customers use more of the telco services, they are more likely to discontinue the services. 
+Telco companies can look into the other factors. ...
+
 
 ## What we have learnt from this project 
 - Methods to visualise and interpret data
