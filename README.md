@@ -6,7 +6,7 @@ This is a Mini-Project for the SC1015 (Introduction to Data Science and Artifici
 
 Our group aims to utilise customer data from Telcos to analyse the factors that affect churn and provide recommendations to reduce churn rate.
 
-
+Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets by Baligh Mnassri.
 ## Contributors
 
 
@@ -33,9 +33,10 @@ Thus, Telco businesses are seeking to develop models to predict and reduce churn
 
 
 ## Exploratory Data Analysis (EDA)
-Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets <br>
 
-#### [EDA](https://github.com/chuaqindi/sc1015-miniproject/blob/main/EDA.ipynb)
+### [-View EDA ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/EDA.ipynb)
+
+
 
 Our target variable, `Churn` is a boolean type variable. Hence, we used the following methods to carry out our EDA:
 
@@ -44,20 +45,20 @@ Feature importances:
 - Countplot of Categorical data against Churn
 
 Correlation:
--Point biserial correlation (for Numerical Data)
--Phi k (𝜙k) correlation coefficent (for Categorical Data)
+- Point biserial correlation (for Numerical Data)
+- Phi k (𝜙k) correlation coefficent (for Categorical Data)
 
 ## Data Preparation
 
 In this section, we prepared the dataset to be trained more accurately by our machine learning models.
 
 - The dataset does not contain missing or NaN values
-- However, we did notice that there was an inbalance in classes of the churn data. Hence, we use Synthetic Minority Oversampling Technique (SMOTE) to generate more 'False' values in our Churn data 
+- However, we did notice that there was an inbalance in classes of the churn data.<br> Hence, we use Synthetic Minority Oversampling Technique (SMOTE) to generate more 'False' values in our Churn data 
 - OneHotEncoding library was used to convert categorical data (in String format) to Integers
 
 
 ## Machine Learning
-#### 1. [Logistic Regression, XGBoost, LightGBM](https://github.com/chuaqindi/sc1015-miniproject/blob/main/ClassificationTree_RandomForest.ipynb) <br> 2. [Classification Tree & Random Forest](https://github.com/chuaqindi/sc1015-miniproject/blob/main/LogReg_XGBoost_LightGBM.ipynb) 
+### 1. [View Logistic Regression, XGBoost, LightGBM ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/ClassificationTree_RandomForest.ipynb) <br> 2. [View Classification Tree & Random Forest ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/LogReg_XGBoost_LightGBM.ipynb) 
 
 
 ## Conclusion / Recommendations
