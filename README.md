@@ -69,6 +69,7 @@ In this section, we prepared the dataset to be trained more accurately by our ma
 ## Machine Learning
 ### 1. [View Logistic Regression, XGBoost, LightGBM ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/LR_XGB_LGBM.ipynb) <br> 2. [View Classification Tree & Random Forest ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/ClasssificationTree_RandForest.ipynb) 
 
+![image](https://github.com/chuaqindi/sc1015-miniproject/blob/main/barchart.jpg)
 
 |      Performance Measure                    | Accuracy | ROC AUC | Precision | Recall | F1-Score |
 | ------                             | ------ | ------ | ------ | ------ | ------ |
@@ -79,7 +80,6 @@ In this section, we prepared the dataset to be trained more accurately by our ma
 | Classification Tree                | 0.980495	 | 0.961857 | 0.980539 | 0.980495 | 0.980516 |
 | Logistic Regression                | 0.791823 | 0.836494 | 0.867328 | 0.791823 | 0.815843 |
 
-![image](https://github.com/chuaqindi/sc1015-miniproject/blob/main/barchart.jpg)
 
 ## Conclusion / Recommendations
  
@@ -95,10 +95,24 @@ The feature importances provides some insights into how telco businesses can imp
 
 ## What we have learnt from this project 
 - Methods to visualise and interpret data
-- Upsampling data to increase prediction accuracy of model.
-- New Machine Learning models: Logistic Regression, XGBoost, LightGBM
+  - Point biserial Correlation
+  - Phik correlation
+  - Graphviz
+- Data preparation techniques.
+  - Synthetic Minority Oversampling Technique (SMOTE)
+  - OneHotEncoding
+  - Scaling via standardscalar
+- New Machine Learning models:
+  - Logistic Regression
+  - XGBoost
+  - LightGBM
+  - Tuning Random Forest's hyper parameter
+- Comparing Models results
+  -  Recall score
+  -  ROC AUC
 - Drawing conclusions from data and relating it to real-world issues
 - Collaborating on GitHub
+
 
 
 ## References
