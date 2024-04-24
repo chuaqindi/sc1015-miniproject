@@ -106,4 +106,7 @@ https://www.kaggle.com/code/visionary20/orange-telecom-prevention-and-predicting
 https://www.datacamp.com/tutorial/understanding-logistic-regression-python
 https://www.datacamp.com/tutorial/xgboost-in-python
 https://phik.readthedocs.io/en/latest/
-
+https://www.statology.org/point-biserial-correlation-python/
+https://medium.com/@asuzukipk/phik-%CF%86k-a-new-and-practical-feature-correlation-1cff226fc5cb
+https://www.datacamp.com/tutorial/random-forests-classifier-python
+https://www.analyticsvidhya.com/blog/2021/08/complete-guide-on-how-to-use-lightgbm-in-python/
