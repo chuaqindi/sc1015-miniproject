@@ -7,6 +7,9 @@ This is a Mini-Project for the SC1015 (Introduction to Data Science and Artifici
 Our group aims to utilise customer data from Telcos to analyse the factors that affect churn and provide recommendations to reduce churn rate.
 
 Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets by Baligh Mnassri.
+
+### [-View compiled ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/EDA.ipynb) or follow the Walk-through in README file.
+
 ## Contributors
 
 
@@ -64,12 +67,12 @@ In this section, we prepared the dataset to be trained more accurately by our ma
 
 |      Performance Measure                    | Accuracy | ROC AUC | Precision | Recall | F1-Score |
 | ------                             | ------ | ------ | ------ | ------ | ------ |
-| XGBoost                            | 0.990 | 0.981 | 0.987 | 0.946 | 0.966 |
-| LightGBM                           | 0.989 | 0.984 | 0.984 | 0.938 | 0.960 |
-| Random Forest                      | 0.985 | 0.989 | 0.975 | 0.918 | 0.946 |
-| Random Forest with Hyperparameters | 0.985 | 0.989 | 0.978 | 0.918 | 0.947 |
-| Classification Tree                | 0.980 | 0.962 | 0.931 | 0.936 | 0.933 |
-| Logistic Regression                | 0.792 | 0.836 | 0.388 | 0.747 | 0.511 |
+| XGBoost                            | 0.990248	 | 0.980960 | 0.990222 | 0.990248 | 0.990162 |
+| LightGBM                           | 0.988747 | 0.983973 | 0.988708 | 0.988747 | 0.988636 |
+| Random Forest with Hyperparameters | 0.984996	 | 0.989352 | 0.984947 | 0.984996 | 0.984779 |
+| Random Forest                      | 0.983496 | 0.988223 | 0.983402 | 0.983496 | 0.983257 |
+| Classification Tree                | 0.980495	 | 0.961857 | 0.980539 | 0.980495 | 0.980516 |
+| Logistic Regression                | 0.791823 | 0.836494 | 0.867328 | 0.791823 | 0.815843 |
 
 ## Conclusion / Recommendations
  
