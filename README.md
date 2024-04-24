@@ -8,7 +8,7 @@ Our group aims to utilise customer data from Telcos to analyse the factors that 
 
 Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets by Baligh Mnassri.
 
-### [-View compiled ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/EDA.ipynb) or follow the Walk-through in README file.
+### [-View compiled ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/All_models.ipynb) or follow the Walk-through in README file.
 
 ## Contributors
 
