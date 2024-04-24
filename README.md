@@ -8,7 +8,7 @@ Our group aims to utilise customer data from Telcos to analyse the factors that 
 
 Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets by Baligh Mnassri.
 
-### [-View compiled ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/All_models.ipynb) or follow the Walk-through in README file.
+### [-View compiled ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/compiled.ipynb) or follow the Walk-through in README file.
 
 ## Members
 
@@ -67,7 +67,7 @@ In this section, we prepared the dataset to be trained more accurately by our ma
 
 
 ## Machine Learning
-### 1. [View Logistic Regression, XGBoost, LightGBM ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/ClassificationTree_RandomForest.ipynb) <br> 2. [View Classification Tree & Random Forest ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/LogReg_XGBoost_LightGBM.ipynb) 
+### 1. [View Logistic Regression, XGBoost, LightGBM ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/LR_XGB_LGBM.ipynb) <br> 2. [View Classification Tree & Random Forest ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/ClasssificationTree_RandForest.ipynb) 
 
 
 |      Performance Measure                    | Accuracy | ROC AUC | Precision | Recall | F1-Score |
@@ -78,6 +78,8 @@ In this section, we prepared the dataset to be trained more accurately by our ma
 | Random Forest                      | 0.983496 | 0.988223 | 0.983402 | 0.983496 | 0.983257 |
 | Classification Tree                | 0.980495	 | 0.961857 | 0.980539 | 0.980495 | 0.980516 |
 | Logistic Regression                | 0.791823 | 0.836494 | 0.867328 | 0.791823 | 0.815843 |
+
+![image](https://github.com/chuaqindi/sc1015-miniproject/blob/main/barchart.jpg)
 
 ## Conclusion / Recommendations
  
