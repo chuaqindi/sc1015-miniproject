@@ -10,7 +10,13 @@ Dataset from Kaggle https://www.kaggle.com/datasets/mnassrib/telecom-churn-datas
 
 ### [-View compiled ipynb](https://github.com/chuaqindi/sc1015-miniproject/blob/main/All_models.ipynb) or follow the Walk-through in README file.
 
-## Contributors
+## Members
+
+Lab FDDA Group 6: 
+
+- Anshika Uppal
+- Chua Qin Di
+- Ting Zhi Hai, James
 
 
 ## Problem Definition 
@@ -20,7 +26,6 @@ Customer churn refers to customers that stopped using a company'services during 
 In the highly competitive telecommunications industry, customer churn is a critical challenge for telco businesses. It is roughly 6-7 times more expensive to acquire a new customer than it is to keep a current customer. Thus, even if the company gains a customer for every customer lost, they are still losing money. 
 
 Thus, Telco businesses are seeking to develop models to predict and reduce churn, allowing the business optimize customer retention strategies and cultivate a stronger customer base.
-
 
 
 ## Models/ Libraries used
