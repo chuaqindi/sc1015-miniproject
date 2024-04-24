@@ -21,7 +21,7 @@ Lab FDDA Group 6:
 
 ## Problem Definition 
 
-Customer churn refers to customers that stopped using a company'services during a certain time frame. Churn analysis allows businesses to identify potential issues and take proactive measures to retain customers.
+Customer churn refers to customers that stopped using a company' services during a certain time frame. Churn analysis allows businesses to identify potential issues and take proactive measures to retain customers.
 
 In the highly competitive telecommunications industry, customer churn is a critical challenge for telco businesses. It is roughly 6-7 times more expensive to acquire a new customer than it is to keep a current customer. Thus, even if the company gains a customer for every customer lost, they are still losing money. 
 
@@ -49,8 +49,8 @@ Thus, Telco businesses are seeking to develop models to predict and reduce churn
 Our target variable, `Churn` is a boolean type variable. Hence, we used the following methods to carry out our EDA:
 
 Feature importances:
-- Boxplots of Numerical data against Churn
-- Countplot of Categorical data against Churn
+- Boxplots of Numerical data against `Churn`
+- Countplot of Categorical data against `Churn`
 
 Correlation:
 - Point biserial correlation (for Numerical Data)
@@ -61,7 +61,7 @@ Correlation:
 
 In this section, we prepared the dataset to be trained more accurately by our machine learning models.
 
-- The dataset does not contain missing or NaN values
+- The dataset does not contain missing or `NaN` values
 - However, we did notice that there was an inbalance in classes of the churn data.<br> Hence, we use Synthetic Minority Oversampling Technique (SMOTE) to generate more 'False' values in our Churn data 
 - OneHotEncoding library was used to convert categorical data (in String format) to Integers
 
